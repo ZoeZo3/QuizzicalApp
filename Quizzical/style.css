@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F7FB;
+    font-family: 'Karla', sans-serif;
+    background-image: url(./images/blob_blue.png), url(./images/blob_yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, right top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #293264;
+}
+
+.homepage > h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.homepage > h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.homepage--start {
+    height: 50px;
+    width: 200px;
+    color: #F5F7FB;
+    border-radius: 15px;
+    background: #4D5B9E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+}
+
+.homepage--start:active {
+    background-color: darkblue;
+}
+
+.quizz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 70px;
+}
+
+.question-header {
+    color: #293264;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.question-answers {
+    display: flex;
+    gap: 13px;
+}
+
+.answer {
+    border-radius: 7.942px;
+    padding: 5px 20px;
+    color: #293264;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.answer:hover {
+    background-color: white;
+}
+
+.separator {
+    border: 0.8px solid #DBDEF0;
+    margin-top: 20px;
+}
+
+.submit {
+    width: 150px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #F5F7FB;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    border: none;    
+}
+
+.score-section {
+    display: flex;
+    justify-content: flex-end;
+    color: #293264;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+    padding: 0px 100px;
+    gap: 15px;
+}
